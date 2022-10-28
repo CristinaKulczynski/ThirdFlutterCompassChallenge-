@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:immune/components/imagens.dart';
-import 'package:immune/screens/tela_inicial.dart';
+import 'package:immune/screens/tela_2_inicial.dart';
 
 class TelaLogoInicial extends StatefulWidget {
   const TelaLogoInicial({Key? key}) : super(key: key);
@@ -28,7 +27,7 @@ class _TelaLogoInicialState extends State<TelaLogoInicial> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Image.asset(
-        Imagens.imagemtelainicial,
+        "assets/images/immuno.gif",
         /* Ajuste na borda da imagem */
         fit: BoxFit.cover,
         width: double.infinity,
