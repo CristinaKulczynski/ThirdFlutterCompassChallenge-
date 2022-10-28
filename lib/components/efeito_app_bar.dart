@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-AppBar efeitoAppBar() {
+AppBar efeitoAppBar(String titulo) {
   return AppBar(
-    title: const Text('Immune'),
+    title: Text(titulo),
     flexibleSpace: Container(
       decoration: const BoxDecoration(
         gradient: LinearGradient(
@@ -12,7 +12,6 @@ AppBar efeitoAppBar() {
               Color.fromRGBO(30, 26, 75, 1.0),
               Color.fromRGBO(32, 37, 141, 1),
               Color.fromRGBO(74, 148, 222, 1.0),
-
             ]),
       ),
     ),
